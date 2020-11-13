@@ -5,12 +5,23 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace InternetSpeedTester
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
+        {
+            while (true)
+            {
+                RunSpeedTest();
+                Console.WriteLine("Waiting for 20 mins before next run...");
+                await Task.Delay(300000); // wait 20 mins
+            }
+        }
+
+        private static void RunSpeedTest()
         {
             var toolPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "speedtest.exe");
 
