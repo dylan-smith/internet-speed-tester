@@ -1,0 +1,40 @@
+{
+    "type": "result",
+    "timestamp": "2020-11-12T23:30:35Z",
+    "ping": {
+        "jitter": 1.2370000000000001,
+        "latency": 12.086
+    },
+    "download": {
+        "bandwidth": 34007382,
+        "bytes": 461838494,
+        "elapsed": 14412
+    },
+    "upload": {
+        "bandwidth": 12865148,
+        "bytes": 77201694,
+        "elapsed": 6008
+    },
+    "packetLoss": 3.8461538461538463,
+    "isp": "Shaw Communications",
+    "interface": {
+        "internalIp": "10.0.0.32",
+        "name": "",
+        "macAddr": "54:8D:5A:19:8C:6E",
+        "isVpn": false,
+        "externalIp": "50.71.236.157"
+    },
+    "server": {
+        "id": 1493,
+        "name": "Voyageur Internet",
+        "location": "Winnipeg, MB",
+        "country": "Canada",
+        "host": "sp1.voyageurinternet.ca",
+        "port": 8080,
+        "ip": "204.16.144.123"
+    },
+    "result": {
+        "id": "44f024ef-5678-4756-905e-7aeee4e7399b",
+        "url": "https://www.speedtest.net/result/c/44f024ef-5678-4756-905e-7aeee4e7399b"
+    }
+}
